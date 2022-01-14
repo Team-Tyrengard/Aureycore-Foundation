@@ -14,4 +14,5 @@ module com.tyrengard.aureycore.foundation {
     exports com.tyrengard.aureycore.foundation.common.interfaces;
     exports com.tyrengard.aureycore.foundation.common.struct;
     exports com.tyrengard.aureycore.foundation.common.utils;
+    exports com.tyrengard.aureycore.foundation.common.random;
 }
