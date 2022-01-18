@@ -40,7 +40,7 @@ public class InventoryUtils {
 		return output;
 	}
 
-	public static List<ItemStack> getProductsOfBrewerInventory(BrewerInventory bi) {
+	public static List<ItemStack> getContentsOfPotionSlots(BrewerInventory bi) {
 		ArrayList<ItemStack> output = new ArrayList<>();
 		for (int i = 0; i <= 2; i++)
 			output.add(bi.getItem(i));

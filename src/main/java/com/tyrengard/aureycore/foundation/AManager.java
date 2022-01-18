@@ -14,6 +14,10 @@ public abstract class AManager<T extends AManagedPlugin> {
 		plugin.logWarning(message);
 	}
 
+	protected void logInfo(String message) {
+		plugin.logInfo(message);
+	}
+
 	protected void logDebug(String message) {
 		plugin.logDebug(message);
 	}

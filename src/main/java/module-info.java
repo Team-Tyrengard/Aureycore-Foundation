@@ -5,9 +5,11 @@ module com.tyrengard.aureycore.foundation {
     requires org.mongodb.bson;
     requires org.mongodb.driver.sync.client;
     requires java.logging;
+    requires org.jetbrains.annotations;
 
     exports com.tyrengard.aureycore.foundation;
     exports com.tyrengard.aureycore.foundation.db;
+    exports com.tyrengard.aureycore.foundation.common.events;
     exports com.tyrengard.aureycore.foundation.common.anvilevents;
     exports com.tyrengard.aureycore.foundation.common.armorevents;
     exports com.tyrengard.aureycore.foundation.common.stringformat;

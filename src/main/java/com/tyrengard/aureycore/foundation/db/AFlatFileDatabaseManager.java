@@ -1,4 +1,7 @@
-package com.tyrengard.aureycore.foundation;
+package com.tyrengard.aureycore.foundation.db;
+
+import com.tyrengard.aureycore.foundation.ADatabaseManager;
+import com.tyrengard.aureycore.foundation.AManagedPlugin;
 
 public abstract class AFlatFileDatabaseManager<T extends AManagedPlugin> extends ADatabaseManager<T> {
 	protected AFlatFileDatabaseManager(T plugin) {

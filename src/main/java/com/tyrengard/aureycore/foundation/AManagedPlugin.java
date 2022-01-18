@@ -138,6 +138,10 @@ public abstract class AManagedPlugin extends JavaPlugin {
 		log(Level.WARNING, message);
 	}
 
+	protected void logInfo(String message) {
+		log(Level.INFO, message);
+	}
+
 	protected void logDebug(String message) {
 		if (debugLogging)
 			log(Level.INFO, message);
